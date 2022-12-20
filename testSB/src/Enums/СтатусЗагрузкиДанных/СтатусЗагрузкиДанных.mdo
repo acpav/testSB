@@ -41,10 +41,17 @@
     </synonym>
   </enumValues>
   <enumValues uuid="2a5a36ba-c249-4889-ab13-ddd5dde5a53f">
-    <name>Ошибка</name>
+    <name>ОшибкаЧтения</name>
     <synonym>
       <key>ru</key>
-      <value>Ошибка</value>
+      <value>Ошибка чтения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9736b402-2044-44ae-acd8-b22aec118260">
+    <name>ОшибкаРассчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка рассчета</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
