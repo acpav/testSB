@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a7843b-dd35-48f1-b1d2-ec0489b452e3">
+  <producedTypes>
+    <refType typeId="7923eb62-b506-4900-977c-23b1793c0b37" valueTypeId="f912e308-ab19-4329-b993-8c99e133c7f4"/>
+    <listType typeId="a6c2d94b-1945-4000-b638-9a8eb29edf82" valueTypeId="a851f057-3115-4cb7-8ec1-63c0c059305c"/>
+    <managerType typeId="45807a7d-d7ab-4ddc-8c91-60ba1010c99b" valueTypeId="712caeae-2782-4318-969c-316228856fcb"/>
+  </producedTypes>
+  <name>СтатусЗагрузкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус загрузки данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0dbab112-4a0a-407c-a8fa-4f18c77454d6">
+    <name>НетДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5947002-8b86-4c30-b70a-b6d7c56ebd3a">
+    <name>ДанныеСчитаны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные считаны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50c78b9c-78ee-4343-bc5c-38736039b946">
+    <name>ИдетРассчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идет рассчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2cdcf9b-ab1c-48b5-8d93-f49197c4f19c">
+    <name>РассчетЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчет завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a5a36ba-c249-4889-ab13-ddd5dde5a53f">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

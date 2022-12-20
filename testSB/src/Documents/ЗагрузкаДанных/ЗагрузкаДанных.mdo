@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7eb530c-94c4-42cf-81ed-8fdd80e4047e">
+  <producedTypes>
+    <objectType typeId="df0c9b3d-39a6-4f7d-a36f-2f096b755f2f" valueTypeId="0c21f088-bab2-4957-afb4-780a0075fe53"/>
+    <refType typeId="442af08e-df66-4d61-bc01-270fd40e64db" valueTypeId="90306a56-668e-4fd4-a254-4fe3e56189cc"/>
+    <selectionType typeId="5da8b2c2-c24a-4f7c-bf7c-a48420abffe6" valueTypeId="d3d91332-c596-41f8-a4bc-be4c84a63d9f"/>
+    <listType typeId="805f466c-de68-439c-980f-ac45d2d4dfab" valueTypeId="b4bb1a75-6754-4202-b1cf-3db11a15282f"/>
+    <managerType typeId="e8d776e6-e9c2-4a03-ad68-e7d5fea614e8" valueTypeId="dc71f3b2-230c-4849-93e8-b97c343be691"/>
+  </producedTypes>
+  <name>ЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗагрузкаДанных.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Загрузка данных</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Загрузка данных</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗагрузкаДанных.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.СтоимостьУслугСортировки</registerRecords>
+  <registerRecords>InformationRegister.ДанныеПоРассчетуУслуг</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d6c58729-9ed8-4214-be99-952295e1d6af">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="404e46e2-c00d-4058-9369-df0984810597">
+    <name>ОчищатьДанныеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать данные загрузки после рассчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d73c4cb2-3ae7-465b-b8a1-bfb5562bc684">
+    <name>СтатусЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус загрузки данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗагрузкиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7f3d6360-56d6-4de9-8549-3537d721e604">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

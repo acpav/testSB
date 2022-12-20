@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99832148-3a15-4fba-ad9c-4202038ee232">
+  <producedTypes>
+    <selectionType typeId="f84607b0-8f42-444e-ab4a-7127776b0a08" valueTypeId="741e8a1d-0608-48fe-9599-e3225bdf2cc6"/>
+    <listType typeId="565d29ee-4630-4f87-b117-df62c2c4fe19" valueTypeId="c3b16f50-fcbf-4395-85d1-ae8b8666c3b7"/>
+    <managerType typeId="80c7b971-df89-42e4-b826-b345da3a3a1b" valueTypeId="9db61138-c563-4e33-a32a-b21724882b6b"/>
+    <recordSetType typeId="9a794805-a130-42c5-9329-9c8c067bc361" valueTypeId="9f962455-8637-4257-9703-667aaaca8294"/>
+    <recordKeyType typeId="8995b23d-e47f-40d3-a0e7-4d1efbf9f05b" valueTypeId="2dca1d7b-4eb6-4eb7-8a8d-e5b0036e0409"/>
+    <recordType typeId="b852a410-44d8-40ea-81af-c1186c178000" valueTypeId="ea335a28-957b-465c-b096-ccecaa960c6b"/>
+  </producedTypes>
+  <name>СтоимостьУслугСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость услуг сортировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9f0123eb-d752-492b-8837-eb02c8186c26">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="b749af2e-e7a3-4df5-8f94-3eb9e892f2e3">
+    <name>НомерГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер грузового места</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="027fb42c-5ff2-47b0-a19d-25383b30cea7">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="fe1fbf7f-aa46-4e45-9150-a5efe2922cc6">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыГрузовыхМест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e337441c-5412-4738-86ae-465860741a36">
+    <name>УслугаСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга сортировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УслугаСортировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

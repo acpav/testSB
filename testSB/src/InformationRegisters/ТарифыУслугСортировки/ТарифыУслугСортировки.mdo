@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a92699d-df40-4826-ad83-3d485dde09a3">
+  <producedTypes>
+    <selectionType typeId="ccc216c0-fafd-4318-b429-6610e3f5db9c" valueTypeId="cd94fb31-1e73-451f-80f9-77c46c77642a"/>
+    <listType typeId="f055c657-0c58-4291-b268-39dd7a9213e4" valueTypeId="f7fc0f12-44de-438b-aba4-94494c99ae27"/>
+    <managerType typeId="bb324777-095d-4da6-9af8-b1edde8c65f7" valueTypeId="f0a22727-9310-431a-b860-2d7843c9d440"/>
+    <recordSetType typeId="903848ee-9324-413f-896c-aa85d9f5f265" valueTypeId="7755431f-b8f6-40a1-af2e-c0eb24af67da"/>
+    <recordKeyType typeId="d3049485-4191-4df7-a841-36837cd38121" valueTypeId="e18af9cb-431f-4155-98d6-e930ab56625e"/>
+    <recordType typeId="6afe8207-e78c-4f94-b51e-a6d7f31310ea" valueTypeId="cb26f80f-af30-4f56-b9e8-be69a2d00a23"/>
+    <recordManagerType typeId="fa4d1c4e-14ae-4dc3-807f-2302c8ba59e0" valueTypeId="e89e89a3-40eb-4b24-9653-e97c4a1962ac"/>
+  </producedTypes>
+  <name>ТарифыУслугСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы услуг сортировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Тариф услуг сортировки</value>
+  </recordPresentation>
+  <resources uuid="fe1cb8dc-1b13-4f58-af76-79dd1b01f8d7">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="75879a93-f140-4418-bf11-124edc978186">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыГрузовыхМест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="04dc4134-ff83-4eea-ac1d-aca724dd3a52">
+    <name>УслугаСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга сортировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УслугаСортировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
