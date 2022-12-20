@@ -39,4 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Календари</catalogs>
+  <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <enums>Enum.СпособыЗаполненияГрафикаРаботы</enums>
+  <informationRegisters>InformationRegister.КалендарныеГрафики</informationRegisters>
 </mdclass:Configuration>
