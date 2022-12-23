@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8f91ea-f90c-4eb6-89fc-a081c470a397">
+  <producedTypes>
+    <objectType typeId="ed8c4da4-c24e-4479-9ec7-6e5f8ac03540" valueTypeId="12668f94-aa44-4ba3-aca1-c8cc7e9a600e"/>
+    <managerType typeId="a14c705b-a406-46b0-85b5-1132f7bfcda9" valueTypeId="7907e488-32de-4831-96b2-7403569ab7ed"/>
+  </producedTypes>
+  <name>СтоимостьУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтоимостьУслуг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e5c5d482-0173-452b-bccf-15c4a20c0cc0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

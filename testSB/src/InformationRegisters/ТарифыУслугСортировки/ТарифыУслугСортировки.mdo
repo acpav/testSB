@@ -49,7 +49,10 @@
       <value>Тип грузового места</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыГрузовыхМест</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

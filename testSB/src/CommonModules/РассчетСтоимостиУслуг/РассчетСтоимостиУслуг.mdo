@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad9df57a-8228-444a-85a4-8c4b98a39cea">
+  <name>РассчетСтоимостиУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчет стоимости услуг</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -39,13 +39,13 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.РассчетСтоимостиУслуг</commonModules>
+  <constants>Constant.ОсновнойКалендарь</constants>
   <catalogs>Catalog.Календари</catalogs>
-  <catalogs>Catalog.ТипыГрузовыхМест</catalogs>
   <documents>Document.ЗагрузкаДанных</documents>
-  <enums>Enum.СпособыЗаполненияГрафикаРаботы</enums>
   <enums>Enum.СтатусЗагрузкиДанных</enums>
   <enums>Enum.УслугаСортировки</enums>
-  <informationRegisters>InformationRegister.ДанныеПоРассчетуУслуг</informationRegisters>
+  <reports>Report.СтоимостьУслуг</reports>
   <informationRegisters>InformationRegister.КалендарныеГрафики</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыОбработкиХабов</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыУслугСортировки</informationRegisters>

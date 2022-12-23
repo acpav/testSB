@@ -35,7 +35,6 @@
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.СтоимостьУслугСортировки</registerRecords>
-  <registerRecords>InformationRegister.ДанныеПоРассчетуУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d6c58729-9ed8-4214-be99-952295e1d6af">
@@ -47,21 +46,6 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="404e46e2-c00d-4058-9369-df0984810597">
-    <name>ОчищатьДанныеЗагрузки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Очищать данные загрузки после рассчета</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

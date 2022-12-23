@@ -12,20 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="0dbab112-4a0a-407c-a8fa-4f18c77454d6">
-    <name>НетДанных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Нет данных</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="c5947002-8b86-4c30-b70a-b6d7c56ebd3a">
-    <name>ДанныеСчитаны</name>
-    <synonym>
-      <key>ru</key>
-      <value>Данные считаны</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="50c78b9c-78ee-4343-bc5c-38736039b946">
     <name>ИдетРассчет</name>
     <synonym>
