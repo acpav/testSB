@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Календарные графики</value>
   </synonym>
+  <defaultListForm>InformationRegister.КалендарныеГрафики.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -179,4 +180,13 @@
       <value>0001-01-01T00:00:00</value>
     </fillValue>
   </dimensions>
+  <forms uuid="0b4cc23c-137b-45ad-940a-64a7aedaa195">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
